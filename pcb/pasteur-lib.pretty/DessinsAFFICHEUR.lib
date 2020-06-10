@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DessinAfficheur
+#
+DEF DessinAfficheur U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "DessinAfficheur" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 -50 250 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# DessinPlacement
+#
+DEF DessinPlacement U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "DessinPlacement" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 -50 250 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
