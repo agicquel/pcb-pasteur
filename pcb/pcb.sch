@@ -2519,7 +2519,7 @@ U 1 1 6012307D
 P 10800 6200
 F 0 "U2" H 10800 6315 50  0000 C CNN
 F 1 "DessinAfficheur" H 10800 6224 50  0000 C CNN
-F 2 "pasteur-lib:DessinAfficheurV3.1" H 10800 6200 50  0001 C CNN
+F 2 "pasteur-lib:DessinAfficheurV4.0" H 10800 6200 50  0001 C CNN
 F 3 "" H 10800 6200 50  0001 C CNN
 	1    10800 6200
 	1    0    0    -1  

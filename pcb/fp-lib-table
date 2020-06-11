@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name LED_0603_1.1mm_0.8mm)(type KiCad)(uri ${KIPRJMOD}/LED_0603_1.1mm_0.8mm.pretty)(options "")(descr ""))
   (lib (name pasteur-lib)(type KiCad)(uri ${KIPRJMOD}/pasteur-lib.pretty)(options "")(descr ""))
 )
