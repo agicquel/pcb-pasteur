@@ -1,4 +1,4 @@
-1591292739498
+19095510798839
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59037,6 +59037,90 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCB AFFICHEUR
+DIP-28_W7.62mm
+28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+28
+28
+PCB AFFICHEUR
+DessinAfficheur
+
+
+0
+0
+0
+PCB AFFICHEUR
+DessinAfficheurV2
+
+
+0
+0
+0
+PCB AFFICHEUR
+DessinAfficheurV3
+
+
+0
+0
+0
+PCB AFFICHEUR
+DessinAfficheurV3.1
+
+
+0
+0
+0
+PCB AFFICHEUR
+ESP-Resistor_Horizontal_RM7mm
+Resistor, Axial,  RM 7.62mm, 1/3W,
+Resistor Axial RM 7.62mm 1/3W R3
+0
+2
+2
+PCB AFFICHEUR
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+PCB AFFICHEUR
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+PCB AFFICHEUR
+PinSocket_1x05_P2.54mm_Vertical
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+PCB AFFICHEUR
+PinSocket_1x07_P2.54mm_Vertical
+Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x07 2.54mm single row
+0
+7
+7
+PCB AFFICHEUR
+PlacementGrand
+
+
+0
+0
+0
+PCB AFFICHEUR
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -82039,10 +82123,3 @@ varistor SIOV
 0
 2
 2
-pasteur-lib
-DessinAfficheurV3.1
-
-
-0
-0
-0

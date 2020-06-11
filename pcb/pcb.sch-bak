@@ -1254,16 +1254,7 @@ SCL
 Wire Wire Line
 	10500 3050 10150 3050
 Connection ~ 10150 3050
-Wire Wire Line
-	10150 3050 10150 3150
 Text Notes 10500 3050 2    50   ~ 0
-GND
-Wire Wire Line
-	10500 3150 10150 3150
-Connection ~ 10150 3150
-Wire Wire Line
-	10150 3150 10150 4100
-Text Notes 10500 3150 2    50   ~ 0
 GND
 $Comp
 L Device:R_US R13
@@ -1343,11 +1334,11 @@ $EndComp
 NoConn ~ 8100 1500
 NoConn ~ 8100 1600
 $Comp
-L Connector_Generic:Conn_01x06 J1
+L Connector_Generic:Conn_01x05 J1
 U 1 1 5EF857F3
 P 10700 2850
 F 0 "J1" H 10780 2842 50  0000 L CNN
-F 1 "Conn_01x06" H 10780 2751 50  0000 L CNN
+F 1 "I2C_Data" H 10780 2751 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10700 2850 50  0001 C CNN
 F 3 "~" H 10700 2850 50  0001 C CNN
 	1    10700 2850
@@ -2524,4 +2515,6 @@ F 3 "" H 10800 6200 50  0001 C CNN
 	1    10800 6200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10150 3050 10150 4100
 $EndSCHEMATC
