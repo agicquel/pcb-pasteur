@@ -1565,8 +1565,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 1550 7150 1550
 Connection ~ 7250 1550
-Wire Wire Line
-	7250 1550 7250 750 
 Connection ~ 7150 1550
 Wire Wire Line
 	6450 6100 6550 6100
@@ -1581,8 +1579,6 @@ Connection ~ 7050 1250
 Wire Wire Line
 	7050 1250 7150 1250
 Connection ~ 7150 1250
-Wire Wire Line
-	7150 1250 7450 1250
 Wire Wire Line
 	6450 5600 6550 5600
 Wire Wire Line
@@ -2260,28 +2256,6 @@ Connection ~ 7150 5300
 Wire Wire Line
 	7150 5800 7450 5800
 Connection ~ 7150 5800
-Text Notes 7450 750  2    50   ~ 0
-NL01
-Text Notes 7450 1250 2    50   ~ 0
-NL02
-Text Notes 7450 1800 2    50   ~ 0
-NL03
-Text Notes 7450 2300 2    50   ~ 0
-NL04
-Text Notes 7450 2800 2    50   ~ 0
-NL05
-Text Notes 7450 3300 2    50   ~ 0
-NL06
-Text Notes 7450 3800 2    50   ~ 0
-NL07
-Text Notes 7450 4300 2    50   ~ 0
-NL08
-Text Notes 7450 4800 2    50   ~ 0
-NL09
-Text Notes 7450 5300 2    50   ~ 0
-NL10
-Text Notes 7450 5800 2    50   ~ 0
-NL11
 $Comp
 L Device:R_US R1
 U 1 1 5F9ABB65
@@ -2517,4 +2491,30 @@ F 3 "" H 10800 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10150 3050 10150 4100
+Text Label 7300 750  0    50   ~ 0
+NL01
+Wire Wire Line
+	7150 1250 7450 1250
+Wire Wire Line
+	7250 1550 7250 750 
+Text Label 7300 1250 0    50   ~ 0
+NL02
+Text Label 7300 1800 0    50   ~ 0
+NL03
+Text Label 7300 2300 0    50   ~ 0
+NL04
+Text Label 7300 2800 0    50   ~ 0
+NL05
+Text Label 7300 3300 0    50   ~ 0
+NL06
+Text Label 7300 3800 0    50   ~ 0
+NL07
+Text Label 7300 4300 0    50   ~ 0
+NL08
+Text Label 7300 4800 0    50   ~ 0
+NL09
+Text Label 7300 5300 0    50   ~ 0
+NL10
+Text Label 7300 5800 0    50   ~ 0
+NL11
 $EndSCHEMATC
