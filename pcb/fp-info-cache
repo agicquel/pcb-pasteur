@@ -1,85 +1,57 @@
-18979268301898
-PCB AFFICHEUR
-DIP-28_W7.62mm
-28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+12739221369128
+pasteur-lib
+Crystal_SMD_0603-2Pin_6.0x3.5mm_smallfont
+SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
 0
-28
-28
-PCB AFFICHEUR
-DessinAfficheur
-
-
-0
-0
-0
-PCB AFFICHEUR
-DessinAfficheurV2
-
-
-0
-0
-0
-PCB AFFICHEUR
-DessinAfficheurV3
-
-
-0
-0
-0
-PCB AFFICHEUR
+2
+2
+pasteur-lib
 DessinAfficheurV3.1
 
 
 0
 0
 0
-PCB AFFICHEUR
-ESP-Resistor_Horizontal_RM7mm
-Resistor, Axial,  RM 7.62mm, 1/3W,
-Resistor Axial RM 7.62mm 1/3W R3
+pasteur-lib
+DessinAfficheurV4.0
+
+
+0
+0
+0
+pasteur-lib
+LED_0603_1608Metric_smallfont
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
 0
 2
 2
-PCB AFFICHEUR
-LED_D3.0mm
-LED, diameter 3.0mm, 2 pins
-LED diameter 3.0mm 2 pins
-0
-2
-2
-PCB AFFICHEUR
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-PCB AFFICHEUR
-PinSocket_1x05_P2.54mm_Vertical
+pasteur-lib
+PinSocket_1x05_P2.54mm_Vertical_smallfont
 Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x05 2.54mm single row
 0
 5
 5
-PCB AFFICHEUR
-PinSocket_1x07_P2.54mm_Vertical
-Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x07 2.54mm single row
+pasteur-lib
+PinSocket_1x07_P2.00mm_Horizontal_smallfont
+Through hole angled socket strip, 1x07, 2.00mm pitch, 6.35mm socket length, single row (from Kicad 4.0.7), script generated
+Through hole angled socket strip THT 1x07 2.00mm single row
 0
 7
 7
-PCB AFFICHEUR
-PlacementGrand
-
-
+pasteur-lib
+R_0603_1608Metric_smallfont
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
 0
-0
-0
-PCB AFFICHEUR
-SW_PUSH_6mm
-https://www.omron.com/ecb/products/pdf/en-b3f.pdf
-tact sw push 6mm
+2
+2
+pasteur-lib
+SW_Push_1P1T_NO_6x6mm_H9.5mm_smallfont
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
 0
 4
 2
