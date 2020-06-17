@@ -1328,6 +1328,7 @@ F 0 "U1" H 8543 1496 50  0000 C CNN
 F 1 "ATmega328P-AU" H 8543 1607 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 8700 2500 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 8700 2500 50  0001 C CNN
+F 4 "310010049" H 8700 2500 50  0001 C CNN "SKU"
 	1    8700 2500
 	1    0    0    -1  
 $EndComp
@@ -2256,16 +2257,6 @@ Connection ~ 7150 5300
 Wire Wire Line
 	7150 5800 7450 5800
 Connection ~ 7150 5800
-Text Notes 7450 3800 2    50   ~ 0
-NL07
-Text Notes 7450 4300 2    50   ~ 0
-NL08
-Text Notes 7450 4800 2    50   ~ 0
-NL09
-Text Notes 7450 5300 2    50   ~ 0
-NL10
-Text Notes 7450 5800 2    50   ~ 0
-NL11
 $Comp
 L Device:R_US R1
 U 1 1 5F9ABB65
@@ -2517,4 +2508,14 @@ Text Label 7300 2800 0    50   ~ 0
 NL05
 Text Label 7300 3300 0    50   ~ 0
 NL06
+Text Label 7300 3800 0    50   ~ 0
+NL07
+Text Label 7300 4300 0    50   ~ 0
+NL08
+Text Label 7300 4800 0    50   ~ 0
+NL09
+Text Label 7300 5300 0    50   ~ 0
+NL10
+Text Label 7300 5800 0    50   ~ 0
+NL11
 $EndSCHEMATC
