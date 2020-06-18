@@ -2,10 +2,8 @@ Part/Designator,Manufacture Part Number/Seeed SKU,Quantity,Link
 U1,ATMEGA328P-AU,1,ShenZhen OPL
 "SW1,SW2",K2-1102SP-L4SC-04,2,ShenZhen OPL
 J1,319-10-105-00-006000 ,1,https://www.mouser.fr/ProductDetail/Mill-Max/319-10-105-00-006000?qs=493kPxzlxfLQrM2Dy217Mw%3D%3D 
-J2,S7B-PH-K-S(LF)(SN),1,ShenZhen OPL
 "R13,R12",RN731JTTD3701D50 ,2,https://www.mouser.fr/ProductDetail/KOA-Speer/RN731JTTD3701D50?qs=KOdD7VNvzR8jsX5x72luKA%3D%3D
 "R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1",RN731JTTD8760D25 ,11,https://www.mouser.fr/ProductDetail/KOA-Speer/RN731JTTD8760D25?qs=sGAEpiMZZMvdGkrng054t2d3%252B2HELaAQZMn6h74ekuk%3D
-Y1,ECS-160-18-23G-JGN-TR ,1,https://www.mouser.fr/ProductDetail/ECS/ECS-160-18-23G-JGN-TR?qs=HXFqYaX1Q2xv5YppXNJx%2Fg%3D%3D 
 "D110,D90,D72,D56,D42,D30,D20,D12,D6,D2",VLMY1300-GS08,10,https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/VLMY1300-GS08?qs=uoVnq4yU%252B9LyY5CVnohKmg%3D%3D 
 "D109,D107,D105,D103,D101,D99,D97,D95,D93",VLMY1300-GS08,9,https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/VLMY1300-GS08?qs=uoVnq4yU%252B9LyY5CVnohKmg%3D%3D 
 "D108,D88,D70,D54,D40,D28,D18,D10,D4,D1",VLMY1300-GS08,10,https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/VLMY1300-GS08?qs=uoVnq4yU%252B9LyY5CVnohKmg%3D%3D 

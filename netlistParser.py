@@ -182,7 +182,7 @@ class NetParse(LispParse):
         ledAnode = []
         ledCathode = []
         maxLed = 0
-        #PP.pprint(segment['node'])
+        PP.pprint(segment['node'])
         for link in segment['node']:
             ref = link['ref']
             pin = int(link['pin'])
@@ -195,7 +195,7 @@ class NetParse(LispParse):
                 res = self.getResistor(ref)
                 if res != None: resitors.append(res)
                 else: print("Unknown component: {0} in {1}".format(link, id))
-        #PP.pprint({ 'r': resitors, 'a':ledAnode, 'c':ledCathode })
+        PP.pprint({ 'r': resitors, 'a':ledAnode, 'c':ledCathode })
         if len(resitors) != 1:
             print("Shall have a single resistor connected: {0} in {1}".format(resitors, id))
             return
@@ -214,13 +214,13 @@ class NetParse(LispParse):
 
     def findNL(self):
         global PP
-        #PP.pprint(self.description);
+        PP.pprint(self.description);
         for segment in self.nets['net']:
             name = segment[r'name']
             mname = self.NLre.match(name) if type(name) == str else None
             if mname != None:
                 self.analyseSegment(segment, mname.group(1))
-        #PP.pprint(self.leds)
+        PP.pprint(self.leds)
 
     def analyse(self):
         self.findNL()
