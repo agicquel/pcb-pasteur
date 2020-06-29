@@ -26,9 +26,11 @@ class LispParse():
         for strg in strings:
             r = (r'$_LP_' + str(index))
             #print(strg, r)
-            inputfd = re.sub(strg, r, inputfd)
+            #inputfd = re.sub(strg, r, inputfd)
+            inputfd = inputfd.replace(strg, r)
             self.strList[r] = strg[1:-1]
             index+=1
+        #print(inputfd)
         return inputfd
 
     def replaceString(self, strg):
@@ -249,7 +251,7 @@ class NetParse(LispParse):
             led['px'] = int((led['x'] - min_x) / delta_x)
             led['py'] = int((led['y'] - min_y) / delta_y)
         self.leds = sorted( self.leds, key = lambda d: (d['py'], d['px'])  )
-        PP.pprint(self.leds)
+        #PP.pprint(self.leds)
         fd = open("netlist.h","w+");
         fd.write(
             " /* Hotel Pasteur PCB Table  */\n"+
@@ -283,6 +285,7 @@ class PcbParse(LispParse):
     def preprocess(self,code):
         import re
         code = re.sub(r'\(module[ ]*("[^"]*")([ ]*locked)', r'(module (name \1) (locked 1)', code)
+        code = re.sub(r'\(module[ ]*([^(]*) \(', r'(module (name \1) (', code)
         code = re.sub(r'\(module[ ]*("[^"]*")', r'(module (name \1)', code)
         return code
 
@@ -290,7 +293,7 @@ class PcbParse(LispParse):
         global PP
         #PP.pprint(self.pcbnet)
         for elem in self.pcbnet['module']:
-            if not 'descr' in elem or elem['descr'][0:4] != 'LED,': continue
+            if not 'descr' in elem or elem['descr'][0:7] != 'LED SMD': continue
             for txt in elem['fp_text']:
                 if txt[0] == 'reference' and txt[1][0] == 'D':
                     ledId = int(txt[1][1:])-1
