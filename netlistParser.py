@@ -250,7 +250,8 @@ class NetParse(LispParse):
         for led in self.leds:
             led['px'] = int((led['x'] - min_x) / delta_x)
             led['py'] = int((led['y'] - min_y) / delta_y)
-        self.leds = sorted( self.leds, key = lambda d: (d['py'], d['px'])  )
+        #self.leds = sorted( self.leds, key = lambda d: (d['py'], d['px'])  )
+        self.leds = sorted( self.leds, key = lambda d: d['led'])
         #PP.pprint(self.leds)
         fd = open("netlist.h","w+");
         fd.write(
