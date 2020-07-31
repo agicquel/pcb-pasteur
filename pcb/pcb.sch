@@ -1070,17 +1070,6 @@ F 3 "~" H 1550 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J2
-U 1 1 5EE18FFA
-P 10700 1850
-F 0 "J2" H 10780 1892 50  0000 L CNN
-F 1 "SPI_Flash" H 10780 1801 50  0000 L CNN
-F 2 "pasteur-lib:PinSocket_1x07_P2.00mm_Horizontal_smallfont" H 10700 1850 50  0001 C CNN
-F 3 "~" H 10700 1850 50  0001 C CNN
-	1    10700 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal Y1
 U 1 1 5EE1A341
 P 9700 5000
@@ -1160,19 +1149,7 @@ Wire Wire Line
 	8800 1000 8800 900 
 Connection ~ 8800 900 
 Wire Wire Line
-	8800 900  10300 900 
-Wire Wire Line
 	10500 1550 10300 1550
-Wire Wire Line
-	10300 1550 10300 900 
-Connection ~ 10300 900 
-Wire Wire Line
-	10300 900  10600 900 
-Wire Wire Line
-	10500 2650 10300 2650
-Wire Wire Line
-	10300 2650 10300 1550
-Connection ~ 10300 1550
 NoConn ~ 8100 1300
 Wire Wire Line
 	10150 1100 10150 2150
@@ -1233,8 +1210,6 @@ Wire Wire Line
 Connection ~ 10250 2750
 Wire Wire Line
 	10250 2750 10250 1950
-Text Notes 10500 2750 2    50   ~ 0
-RESET
 Wire Wire Line
 	10500 2850 9700 2850
 Wire Wire Line
@@ -1251,8 +1226,6 @@ Wire Wire Line
 	9650 2700 9300 2700
 Text Notes 10500 2950 2    50   ~ 0
 SCL
-Wire Wire Line
-	10500 3050 10150 3050
 Connection ~ 10150 3050
 Text Notes 10500 3050 2    50   ~ 0
 GND
@@ -1281,12 +1254,7 @@ $EndComp
 Wire Wire Line
 	10900 5200 10900 4300
 Wire Wire Line
-	10300 2650 10300 3450
-Wire Wire Line
-	10300 3450 10900 3450
-Wire Wire Line
 	10900 3450 10900 4300
-Connection ~ 10300 2650
 Connection ~ 10900 4300
 Wire Wire Line
 	9300 1400 9800 1400
@@ -1333,17 +1301,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 $EndComp
 NoConn ~ 8100 1500
 NoConn ~ 8100 1600
-$Comp
-L Connector_Generic:Conn_01x05 J1
-U 1 1 5EF857F3
-P 10700 2850
-F 0 "J1" H 10780 2842 50  0000 L CNN
-F 1 "I2C_Data" H 10780 2751 50  0000 L CNN
-F 2 "pasteur-lib:PinSocket_1x05_P2.54mm_Vertical_smallfont" H 10700 2850 50  0001 C CNN
-F 3 "~" H 10700 2850 50  0001 C CNN
-	1    10700 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 6100 7250 6100
 Wire Wire Line
@@ -2490,7 +2447,7 @@ F 3 "" H 10800 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 3050 10150 4100
+	10150 3050 10150 3450
 Text Label 7300 750  0    50   ~ 0
 NL01
 Wire Wire Line
@@ -2517,4 +2474,47 @@ Text Label 7300 5300 0    50   ~ 0
 NL10
 Text Label 7300 5800 0    50   ~ 0
 NL11
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5EF857F3
+P 10700 2850
+F 0 "J1" H 10780 2842 50  0000 L CNN
+F 1 "I2C_Data" H 10780 2751 50  0000 L CNN
+F 2 "pasteur-lib:PinSocket_1x05_P2.54mm_Vertical_smallfont" H 10700 2850 50  0001 C CNN
+F 3 "~" H 10700 2850 50  0001 C CNN
+	1    10700 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 10500 2750 2    50   ~ 0
+RESET
+Wire Wire Line
+	10500 2650 10300 2650
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5EE18FFA
+P 10700 1850
+F 0 "J2" H 10780 1892 50  0000 L CNN
+F 1 "SPI_Flash" H 10780 1801 50  0000 L CNN
+F 2 "pasteur-lib:PinSocket_1x07_P2.00mm_Horizontal_smallfont" H 10700 1850 50  0001 C CNN
+F 3 "~" H 10700 1850 50  0001 C CNN
+	1    10700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2650 10300 1550
+Wire Wire Line
+	10300 900  10600 900 
+Wire Wire Line
+	8800 900  10300 900 
+Connection ~ 10300 900 
+Connection ~ 10300 1550
+Wire Wire Line
+	10300 1550 10300 900 
+Wire Wire Line
+	10500 3050 10150 3050
+Wire Wire Line
+	10900 3450 10150 3450
+Connection ~ 10150 3450
+Wire Wire Line
+	10150 3450 10150 4100
 $EndSCHEMATC
